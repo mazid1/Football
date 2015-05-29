@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-
 	<!-- General meta information -->
 	<title>Login</title>
 	<meta name="keywords" content="" />
