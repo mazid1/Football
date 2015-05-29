@@ -55,7 +55,7 @@
 
 				<div id="username_inputmiddle">
 				<form>
-					<input type="text" name="username" value="Username" onclick="this.value = ''">
+					<input type="text" name="username" id="url" value="Username" onclick="this.value = ''">
 					<img id="url_user" src="./images/mailicon.png" alt="">
 				</form>
 				</div>
@@ -70,7 +70,7 @@
 
 				<div id="password_inputmiddle">
 				<form>
-					<input type="password" name="password" value="Password" onclick="this.value = ''">
+					<input type="password" name="password" id="url" value="Password" onclick="this.value = ''">
 					<img id="url_password" src="./images/passicon.png" alt="">
 				</form>
 				</div>
