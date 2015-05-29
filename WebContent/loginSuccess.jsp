@@ -1,6 +1,18 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
 
+<%
+response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1.
+response.setHeader("Pragma", "no-cache"); // HTTP 1.0.
+response.setDateHeader("Expires", 0); // Proxies.
+%>
+
+<%
+if(session.getAttribute("username")==null)
+{
+	response.sendRedirect("index.jsp");
+}
+%>
 
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
