@@ -30,7 +30,7 @@
           <li><a href="#" title="">league info</a></li>
           <li><a href="#" title="">my zone</a></li>
           <li><a href="#" title="">fantasy league</a></li>
-          <li><a href="index.html" title="">logout</a></li>
+          <li><a href="index.jsp" title="">logout</a></li>
         </ul>
     </div>
 </div>
