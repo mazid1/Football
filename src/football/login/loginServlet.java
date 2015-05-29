@@ -26,8 +26,9 @@ public class loginServlet extends HttpServlet {
 		String password = request.getParameter("password");
 		
 		//loginService data = new loginService();
+		System.out.println(username + " " + password);
 		
-		if(password != null)
+		if(password.equals("correct"))
 		//if(password.equals(data.query("users","passwd","username",username)))
 		{
 			request.getSession().setAttribute("username", username);
