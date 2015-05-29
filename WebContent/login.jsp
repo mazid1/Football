@@ -41,7 +41,7 @@
 	
 </head>
 <body>
-
+<form action="loginServlet" method="post">
 	<div id="wrapper">
 		<div id="wrappertop"></div>
 
@@ -54,10 +54,10 @@
 				<div id="username_inputleft"></div>
 
 				<div id="username_inputmiddle">
-				<form>
+				
 					<input type="text" name="username" id="url" value="Username" onclick="this.value = ''">
 					<img id="url_user" src="./images/mailicon.png" alt="">
-				</form>
+				
 				</div>
 
 				<div id="username_inputright"></div>
@@ -69,10 +69,10 @@
 				<div id="password_inputleft"></div>
 
 				<div id="password_inputmiddle">
-				<form>
+				
 					<input type="password" name="password" id="url" value="Password" onclick="this.value = ''">
 					<img id="url_password" src="./images/passicon.png" alt="">
-				</form>
+				
 				</div>
 
 				<div id="password_inputright"></div>
@@ -80,10 +80,10 @@
 			</div>
 
 			<div id="submit">
-				<form>
+				
 				<input type="image" src="./images/submit_hover.png" id="submit1" value="Sign In">
 				<input type="image" src="./images/submit.png" id="submit2" value="Sign In">
-				</form>
+				
 			</div>
 
 
@@ -100,6 +100,6 @@
 		<div id="wrapperbottom"></div>
 		
 	</div>
-
+</form>
 </body>
 </html>
