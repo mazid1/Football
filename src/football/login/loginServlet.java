@@ -25,11 +25,11 @@ public class loginServlet extends HttpServlet {
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		
-		loginService data = new loginService();
-		//System.out.println(username + " " + password);
+		//loginService data = new loginService();
+		System.out.println(username + " " + password);
 		
-		//if(password.equals("correct"))
-		if(password.equals(data.query("users","passwd","username",username)))
+		if(password.equals("correct"))
+		//if(password.equals(data.query("users","passwd","username",username)))
 		{
 			request.getSession().setAttribute("username", username);
 			response.sendRedirect("loginSuccess.jsp");

@@ -8,7 +8,7 @@
 
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<link href="css/loginSuccess.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
 </head>
 
@@ -23,14 +23,14 @@
 	<div id="logo">
         <img src="images/uefa.png" alt="Champions League" style="height: 100px" />
     </div>
-    <div id="uname">You're not logged in</div>
+    <div id="uname">You're logged in as: <%=(String) session.getAttribute("username") %></div>
     <div id="buttons">
         <ul>
           <li class="first"><a href="#"  title="home" class="active">home</a></li>
           <li><a href="#" title="">league info</a></li>
           <li><a href="#" title="">my zone</a></li>
-           <li><a href="#" title="">fantasy league</a></li>
-          <li><a href="login.jsp" title="">login/signup</a></li>
+          <li><a href="#" title="">fantasy league</a></li>
+          <li><a href="index.html" title="">logout</a></li>
         </ul>
     </div>
 </div>
