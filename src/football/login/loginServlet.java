@@ -3,6 +3,7 @@ package football.login;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -20,12 +21,22 @@ public class loginServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String username, password;
+
+		String username = request.getParameter("username");
+		String password = request.getParameter("password");
 		
-		username = request.getParameter("username");
-		password = request.getParameter("password");
+		loginService data = new loginService();
 		
-		
+		if(password.equals(data.query("users","passwd","username",username)))
+		{
+			request.getSession().setAttribute("username", username);
+			response.sendRedirect("loginSuccess.jsp");
+			return;
+		}
+		else
+		{
+			response.sendRedirect("login.jsp");
+		}
 	}
 
 }
