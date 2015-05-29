@@ -23,7 +23,7 @@
 	<div id="logo">
         <img src="images/uefa.png" alt="Champions League" style="height: 100px" />
     </div>
-    <div id="uname">Logged in as:</div>
+    <div id="uname">Logged in as: <%=(String) session.getAttribute("username") %></div>
     <div id="buttons">
         <ul>
           <li class="first"><a href="#"  title="home" class="active">home</a></li>
