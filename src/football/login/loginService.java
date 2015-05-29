@@ -11,7 +11,7 @@ public class loginService {
 	private ResultSet result=null;
 	private String DB_URL="jdbc:mysql://localhost/football";
 	private String user="root";
-	private String password="1234";
+	private String password="";
 	private String driver="com.mysql.jdbc.Driver";
 	private String sql=null;
 	
