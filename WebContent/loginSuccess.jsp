@@ -23,6 +23,7 @@
 	<div id="logo">
         <img src="images/uefa.png" alt="Champions League" style="height: 100px" />
     </div>
+    <div id="uname">Logged in as:</div>
     <div id="buttons">
         <ul>
           <li class="first"><a href="#"  title="home" class="active">home</a></li>
@@ -30,9 +31,9 @@
           <li><a href="#" title="">my zone</a></li>
           <li><a href="#" title="">fantasy league</a></li>
           <li><a href="index.html" title="">logout</a></li>
-          <li>username</li>
         </ul>
     </div>
+    
 </div>
 <!-- header ends -->
 <!-- scroll begins -->

@@ -54,19 +54,10 @@ background:url(images/header.jpg) left top no-repeat;
 		color:#FFFFFF;
 		font-size:18px;
 		font-style:italic;
-		padding: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 4px;
 		height: 95px;
-		text-align: right;
+		float: right;
 }
-/*
-#uname {
-	font:"Times New Roman";
-	color:#FFFFFF;
-	font-style:italic;
-	text-align:left;
-	padding:5px 0px 0px 5px;
-	height:5px;
-}*/
 
 #logo h1, #logo p {
 	margin: 0;

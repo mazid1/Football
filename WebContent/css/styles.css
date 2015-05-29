@@ -54,9 +54,9 @@ background:url(images/header.jpg) left top no-repeat;
 		color:#FFFFFF;
 		font-size:18px;
 		font-style:italic;
-		/*padding: 28px 0px 0px 4px;*/
+		padding: 0px 0px 0px 4px;
 		height: 95px;
-		text-align: right;
+		float: right;
 }
 
 
