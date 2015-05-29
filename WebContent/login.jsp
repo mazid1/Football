@@ -55,7 +55,7 @@
 
 				<div id="username_inputmiddle">
 				<form>
-					<input type="text" name="link" id="url" value="E-mail Address" onclick="this.value = ''">
+					<input type="text" name="link" id="url" value="Username" onclick="this.value = ''">
 					<img id="url_user" src="./images/mailicon.png" alt="">
 				</form>
 				</div>
